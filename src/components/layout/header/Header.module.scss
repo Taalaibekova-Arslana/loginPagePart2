@@ -1,0 +1,65 @@
+.Header {
+	width: 100%;
+	left: 0;
+	top: 0;
+	box-shadow: 0 0 10px 0 white;
+	.content {
+		display: flex;
+		justify-content: center;
+		gap: 120px;
+		align-items: center;
+		padding-block: 20px;
+		ul {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			gap: 140px;
+			li {
+				list-style: none;
+				.link {
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+
+		img {
+			width: 90px;
+			height: 90px;
+		}
+
+		p {
+			color: white;
+		}
+		.exit {
+			.user {
+				width: 170px;
+				height: 80px;
+				background-color: rgba(0, 0, 0, 0.419);
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				button {
+					width: 80px;
+					height: 30px;
+					background-color: rgba(255, 255, 255, 0.566);
+					border-radius: 20px;
+				}
+			}
+			.links {
+				display: flex;
+				justify-content: space-between;
+				gap: 120px;
+				li {
+					display: flex;
+				}
+				.link {
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

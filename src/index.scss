@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	// color-scheme: dark;
+	background: url(https://torg-oboi.ru/upload/iblock/c15/nochnoy-london-e-028-4-0kh2-7-m.jpg)
+		no-repeat center/cover fixed;
+}
+body {
+	background-color: rgba(0, 0, 0, 0.664);
+	// height: 1000px;
+}
+
+.container {
+	margin-inline: auto;
+	padding: 20px;
+	max-width: 1200vh;
+	width: 100%;
+}

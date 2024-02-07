@@ -1,0 +1,37 @@
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		width: 250px;
+		height: 300px;
+		background-color: rgba(255, 255, 255, 0.477);
+		border-radius: 20px;
+		.buttons {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			button {
+				width: 100px;
+				height: 30px;
+				border-radius: 10px;
+				color: white;
+				background-color: blue;
+			}
+		}
+
+		input {
+			width: 200px;
+			height: 40px;
+			color: black;
+			background-color: rgba(255, 255, 255, 0.473);
+			border: none;
+		}
+	}
+}
