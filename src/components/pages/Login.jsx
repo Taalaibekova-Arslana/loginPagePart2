@@ -4,8 +4,8 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const url =
-	"https://api.elchocrud.pro/api/v1/6e06db07a137f2ae86eadcf94b38039b/userLogin";
+const url = import.meta.env.VITE_USERS_URL;
+console.log(url);
 
 const Login = () => {
 	const navigate = useNavigate();
@@ -62,7 +62,7 @@ const Login = () => {
 						name="userName"
 					/>
 					<div className={scss.buttons}>
-						<button onClick={handleLogin}>Login</button> 
+						<button onClick={handleLogin}>Login</button>
 						<button onClick={registrationHandle}>Registration</button>
 					</div>
 				</div>

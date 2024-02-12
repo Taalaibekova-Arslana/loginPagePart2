@@ -6,8 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const url =
-	"https://api.elchocrud.pro/api/v1/6e06db07a137f2ae86eadcf94b38039b/userLogin";
+const url = import.meta.env.VITE_USERS_URL;
 
 const Header = () => {
 	const links = [
